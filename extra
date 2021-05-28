@@ -56,3 +56,55 @@ package.json
 > meta data(name,description,version)
 > packages
 > script(start,test,build)
+
+/////////////
+Step to generate package.json
+///////////////////
+**NodeJs must be install in the system
+> open cmd and go inside the folder
+> type npm init
+> answer all questions
+> type "yes"
+
+/////////////
+How to install packages
+///////////////////
+> go inside the folder using cmd
+> type "npm install packagename / npm i packagename"
+npm i package@1.3.4
+
+> npm uninstall react
+
+package.json > main package file
+package-lock > dependency tree
+.gitignore > help to not push node_modules to github
+node_modules > folder contains all packages
+
+
+/////////////////////
+Step to generate react application
+/////////////////
+
+>>>>One time Step<<<<<<< (in every new laptop)
+> open cmd as admin
+> npm i -g create-react-app 
+
+>>>>Every time you want new app <<<<<<<<<<<
+> open cmd 
+> go inside the folder where you want to generate
+> create-react-app appname
+
+
+>>>>>office<><<<<<<
+> open cmd 
+> go inside the folder where you want to generate
+> npx create-react-app appname
+
+
+//////
+How to run
+////
+> open cmd
+> go inside folder
+> npm start
+> localhost:3000
