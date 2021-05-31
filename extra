@@ -109,3 +109,27 @@ How to run
 > go inside folder
 > npm start
 > localhost:3000
+
+
+
+react > main library
+react-dom > help to display content on browser
+react-script > help to run the app 
+
+
+function test(a,b){
+    var out = [a,b]
+    return out
+}
+
+test(1,2)
+2
+
+function test(a,b){
+    var out = [a,b]
+    return out
+}
+
+undefined
+test(1,2)
+(2) [1, 2]
