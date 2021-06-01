@@ -133,3 +133,22 @@ function test(a,b){
 undefined
 test(1,2)
 (2) [1, 2]
+
+
+>>>>>>>>>><<<<<<<<<<<<<<
+classComponent
+> logical component
+> we call api, data and logic as well as display
+> it can maintain the state
+
+functionalComponent
+> dumb component
+> we use for the display purpose
+> it cannot maintain the state
+
+Hooks
+
+
+
+constructor
+super
