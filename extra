@@ -148,7 +148,68 @@ functionalComponent
 
 Hooks
 
-
-
 constructor
 super
+map
+filter
+indexof
+
+state 
+> local variable
+> any data interaction will happen through state only
+> we can update the value of state 
+
+props
+> help to transfer data between 2 nested component
+> we cannot update the data in the props
+> they are immutable 
+
+
+var a = [0,1,2,3]
+a.map((data) => {return data*2})
+[0,2,4,6]
+
+var a = [0,1,2,3]
+a.filter((data) => {return data>2})
+[3]
+
+
+
+/*
+var a = [0,1,2,3]
+a.map((data) => {return data*2})
+[0,2,4,6]
+
+var a = [0,1,2,3]
+a.filter((data) => {return data*2})
+[1,2,3]
+*/
+
+
+parent > child (props)
+child > parent (props with function)
+
+
+parent>>>>
+function add(a,b){
+    return a+b
+}
+
+
+child >>>
+add(1,2)
+
+var city = ['Amsterdam','Venice','Paris','Delhi']
+var city = ['Amsterdam','Venice','Paris','Delhi']
+undefined
+city.indexOf('Delhi')
+3
+city.indexOf('Amsterdam')
+0
+city.indexOf('London')
+-1
+city.indexOf('Mumbai')
+-1
+
+/////////
+npm i react-router-dom 
