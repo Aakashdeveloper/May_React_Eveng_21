@@ -2,8 +2,8 @@ import React, {Component, Fragment} from 'react';
 import './Header.css';
 
 class Header extends Component{
-    constructor(){
-        super()
+    constructor(props){
+        super(props)
 
         console.log(">>>>>in constructor")
         this.state={
