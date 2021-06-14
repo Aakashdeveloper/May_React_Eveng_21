@@ -241,3 +241,11 @@ npm i react-router-dom axios
 
 
 > https://developerhotel.herokuapp.com/
+
+
+/////dummy api///
+npm i -g json-server
+
+json-server --watch booking.json --port 8700
+
+https://developerpayment.herokuapp.com/paynow

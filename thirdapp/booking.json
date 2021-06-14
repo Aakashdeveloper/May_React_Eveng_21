@@ -1,0 +1,26 @@
+{
+  "booking": [
+    {
+      "id": 617539,
+      "hotel_name": "Snow Bliss",
+      "name": "Aakash",
+      "phone": "897867868",
+      "email": "aakash@gmail.com",
+      "cost": "2704",
+      "status": "TXN_SUCCESS",
+      "date": "2021-06-14%2019:56:46.0",
+      "bank": "State%20Bank%20of%20India"
+    },
+    {
+      "id": 76737,
+      "hotel_name": "The Piccadily",
+      "name": "Nikita",
+      "phone": "1283767323",
+      "email": "nikita@gmail.com",
+      "cost": "5170",
+      "status": "TXN_FAILURE",
+      "date": "2021-06-14%2019:58:11.0",
+      "bank": "Punjab%20National%20Bank"
+    }
+  ]
+}

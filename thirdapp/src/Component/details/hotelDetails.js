@@ -114,6 +114,7 @@ class Details extends Component{
         let hotelId = this.props.match.params.id;
         let response = await axios.get(`${url}/${hotelId}`)
         this.setState({details:response.data[0]})
+        sessionStorage.setItem('cost',response.data[0].cost)
     }
 
 }
