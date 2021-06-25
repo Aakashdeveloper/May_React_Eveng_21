@@ -304,3 +304,7 @@ React
 https://www.youtube.com/c/DeveloperFunnel/videos
 
 >>>><<<<<<<
+> npm i -g create-react-native-app
+create-react-native-app appname
+
+npm i apollo-boost apollo-graphql graphql graphql-tag react-apollo
