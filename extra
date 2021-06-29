@@ -18,8 +18,8 @@ Github
 React_hooks -1
 React-GraphQL-1
 Basic React Native=1
-//////////////////
 React-Redux =1
+//////////////////
 React-Redux =1
 Testing Jest Enzime 
 
@@ -310,3 +310,4 @@ npm i apollo-boost apollo-graphql graphql graphql-tag react-apollo
 npm i react-redux redux redux-logger react-router-dom react-slick redux-promise
 
 npm i enzyme enzyme-adapter-react-16 react-addons-test-utils react-test-renderer
+
