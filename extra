@@ -19,11 +19,8 @@ React_hooks -1
 React-GraphQL-1
 Basic React Native=1
 React-Redux =1
-//////////////////
 React-Redux =1
 Testing Jest Enzime 
-
-//walkout
 React-Saga -1
 React-with-typescript-1
 
@@ -311,3 +308,37 @@ npm i react-redux redux redux-logger react-router-dom react-slick redux-promise
 
 npm i enzyme enzyme-adapter-react-16 react-addons-test-utils react-test-renderer
 
+
+function loop(number){
+    for(i=0;i<number;i++){
+        console.log(i)
+    }
+}
+
+loop(5)
+0
+1
+2
+3
+4
+
+function * loop(number){
+    for(i=0;i<number;i++){
+        yield i
+    }
+}
+
+var data = loop(5)
+
+data.next()
+{value: 0, done: false}
+data.next()
+{value: 1, done: false}
+data.next()
+{value: 2, done: false}
+data.next()
+{value: 3, done: false}
+data.next()
+{value: 4, done: false}
+data.next()
+{value: undefined, done: true}
